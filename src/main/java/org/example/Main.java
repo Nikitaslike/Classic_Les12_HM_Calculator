@@ -193,7 +193,7 @@ class GameUI extends JFrame implements ActionListener {
                 }
                 switch (sign){
                     case "/":
-                        textField.setText(String.valueOf(num1 - num2));
+                        textField.setText(String.valueOf(num1 / num2));
                 }
                 break;
             default:
